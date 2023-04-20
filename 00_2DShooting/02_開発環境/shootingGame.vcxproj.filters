@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{411fbca2-9495-47c7-a0ba-a31ba9a7b86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object">
+      <UniqueIdentifier>{8a51b393-56c0-4f0c-9280-7eb19f7896ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Object2D">
+      <UniqueIdentifier>{35d21c01-a56a-4690-93df-7c2ded028034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object\object2D">
+      <UniqueIdentifier>{d6b73fdd-7824-476e-a6d5-43f0a75a87d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mode">
+      <UniqueIdentifier>{fd04a901-b40a-4162-8aa5-c3ba14e67e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mode">
+      <UniqueIdentifier>{041d2651-332a-4ff2-90b0-cf4d8a9c5513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object\object2D\Ability">
+      <UniqueIdentifier>{937d769d-0c7c-422b-a962-c3ed1c35ae2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Object2D\Ability">
+      <UniqueIdentifier>{403f5efa-8ad3-4367-86a6-823b84b242c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Object2D\Bullet">
+      <UniqueIdentifier>{8227a56e-72e2-4518-886f-cfec0821e3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object\object2D\Bullet">
+      <UniqueIdentifier>{52f06b95-5f65-4159-afac-45c604635e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Object2D\Gimmick">
+      <UniqueIdentifier>{ff57ffe9-9383-4ee3-8dfa-db8ffd9599ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object\object2D\Gimmick">
+      <UniqueIdentifier>{b8a07279-ac4d-4904-8b49-fe2af8396880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UI">
+      <UniqueIdentifier>{8e9d6e7f-b00d-451c-9f28-8ace453897a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\UI\Gauge">
+      <UniqueIdentifier>{301c8681-d980-488a-a5f6-33207e863302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object\UI">
+      <UniqueIdentifier>{5d7b9097-0b23-4455-a98f-87a2491def47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object\UI\Gauge">
+      <UniqueIdentifier>{75f30133-9a46-47f3-9a80-4e6f8c20ee77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Object2D\Skill">
+      <UniqueIdentifier>{929c58d3-0ef4-41f2-853f-22adb02fb307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object\object2D\Skill">
+      <UniqueIdentifier>{ae5c7856-0905-4981-baeb-54e15a71e73c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Object2D\Enemy">
+      <UniqueIdentifier>{95ece544-8d9f-4bf4-96bc-75bc58c62627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object\object2D\Enemy">
+      <UniqueIdentifier>{d3bb6915-8b0a-41bc-95bd-326f1efe696a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Object2D\Item">
+      <UniqueIdentifier>{dc4aed85-8e8a-45f2-a3b6-19fcb2052c00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object\object2D\Item">
+      <UniqueIdentifier>{420cff90-9b6a-4c32-986c-a98e83753387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{bd130721-fcbb-4e67-b8f7-fc5af997d4d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>ソース ファイル\Object\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>ソース ファイル\Object\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="object2d.cpp">
+      <Filter>ソース ファイル\Object\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\Object\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="mode.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="gauge.cpp">
+      <Filter>ソース ファイル\Object\UI\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="hp.cpp">
+      <Filter>ソース ファイル\Object\UI\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="ability.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="magnet.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="enemybullet.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="playerbullet.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet_utility.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="gimmick.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="landmine.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="frameeffect.cpp">
+      <Filter>ソース ファイル\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="magnet_field.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="reflect_sphere.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_dog.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_ghost.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_fairyfire.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="mp.cpp">
+      <Filter>ソース ファイル\Object\UI\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="evasion_technique.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="item_score.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="item_magnet.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="item_recovery.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="item_score_B.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="item_orb.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="fragment.cpp">
+      <Filter>ソース ファイル\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="bg.cpp">
+      <Filter>ソース ファイル\Object\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="char_ui.cpp">
+      <Filter>ソース ファイル\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_fairyaqua.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_bird.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="regeneration.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="bomb_circle.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="funnel.cpp">
+      <Filter>ソース ファイル\Object\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="graze.cpp">
+      <Filter>ソース ファイル\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_girl.cpp">
+      <Filter>ソース ファイル\Object\Object2D\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="gaugeframe.cpp">
+      <Filter>ソース ファイル\Object\UI\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_funnel.cpp">
+      <Filter>ソース ファイル\Object\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>ヘッダー ファイル\object\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>ヘッダー ファイル\object\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="object2d.h">
+      <Filter>ヘッダー ファイル\object\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\object\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="mode.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="gauge.h">
+      <Filter>ヘッダー ファイル\object\UI\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="hp.h">
+      <Filter>ヘッダー ファイル\object\UI\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="ability.h">
+      <Filter>ヘッダー ファイル\object\object2D\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="magnet.h">
+      <Filter>ヘッダー ファイル\object\object2D\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル\object\object2D\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="enemybullet.h">
+      <Filter>ヘッダー ファイル\object\object2D\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="playerbullet.h">
+      <Filter>ヘッダー ファイル\object\object2D\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_utility.h">
+      <Filter>ヘッダー ファイル\object\object2D\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="gimmick.h">
+      <Filter>ヘッダー ファイル\object\object2D\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="landmine.h">
+      <Filter>ヘッダー ファイル\object\object2D\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="frameeffect.h">
+      <Filter>ヘッダー ファイル\object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="bg.h">
+      <Filter>ヘッダー ファイル\object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル\object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="skill.h">
+      <Filter>ヘッダー ファイル\object\object2D\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="magnet_field.h">
+      <Filter>ヘッダー ファイル\object\object2D\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="reflect_sphere.h">
+      <Filter>ヘッダー ファイル\object\object2D\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="mp.h">
+      <Filter>ヘッダー ファイル\object\UI\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ヘッダー ファイル\object\object2D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_dog.h">
+      <Filter>ヘッダー ファイル\object\object2D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_ghost.h">
+      <Filter>ヘッダー ファイル\object\object2D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_fairyfire.h">
+      <Filter>ヘッダー ファイル\object\object2D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="evasion_technique.h">
+      <Filter>ヘッダー ファイル\object\object2D\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>ヘッダー ファイル\object\object2D\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="item_score.h">
+      <Filter>ヘッダー ファイル\object\object2D\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="item_magnet.h">
+      <Filter>ヘッダー ファイル\object\object2D\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="item_recovery.h">
+      <Filter>ヘッダー ファイル\object\object2D\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="item_score_B.h">
+      <Filter>ヘッダー ファイル\object\object2D\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="item_orb.h">
+      <Filter>ヘッダー ファイル\object\object2D\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fragment.h">
+      <Filter>ヘッダー ファイル\object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="char_ui.h">
+      <Filter>ヘッダー ファイル\object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_fairyaqua.h">
+      <Filter>ヘッダー ファイル\object\object2D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_bird.h">
+      <Filter>ヘッダー ファイル\object\object2D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="regeneration.h">
+      <Filter>ヘッダー ファイル\object\object2D\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="bomb_circle.h">
+      <Filter>ヘッダー ファイル\object\object2D\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="funnel.h">
+      <Filter>ヘッダー ファイル\object\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="graze.h">
+      <Filter>ヘッダー ファイル\object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_girl.h">
+      <Filter>ヘッダー ファイル\object\object2D\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="gaugeframe.h">
+      <Filter>ヘッダー ファイル\object\UI\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_funnel.h">
+      <Filter>ヘッダー ファイル\object\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="shootingGame.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\FILE\Effect2.json">
+      <Filter>File</Filter>
+    </None>
+    <None Include="data\FILE\Enemy.json">
+      <Filter>File</Filter>
+    </None>
+    <None Include="data\FILE\file.json">
+      <Filter>File</Filter>
+    </None>
+    <None Include="data\FILE\ranking.json">
+      <Filter>File</Filter>
+    </None>
+    <None Include="data\FILE\Effect.json">
+      <Filter>File</Filter>
+    </None>
+    <None Include="data\FILE\KirakiraEffect.json">
+      <Filter>File</Filter>
+    </None>
+    <None Include="data\FILE\rot.json">
+      <Filter>File</Filter>
+    </None>
+  </ItemGroup>
+</Project>
