@@ -1,0 +1,264 @@
+{
+  "EFFECT": [
+    {
+      "Tag": "DamageCircle",
+      "Property": [
+        {
+          "RotateValue": {
+            "X": 0.0,
+            "Y": 2.5,
+            "Z": 0
+          },
+          "ScalingValue": {
+            "X": 0.2,
+            "Y": 0.0,
+            "Z": 0.2
+          },
+          "BeginScale": {
+            "X": 1.0,
+            "Y": 5.0,
+            "Z": 1.0
+          },
+          "Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "Life": 500,
+          "TexTag": "DAMAGE_WALL",
+          "Shape": "CYLINDER"
+        }
+      ]
+    },
+    {
+      "Tag": "HEAL",
+      "Property": [
+        {
+          "BeginScale": {
+            "X": 10.0,
+            "Y": 5.0,
+            "Z": 10.0
+          },
+          "Color": {
+            "R": 0.0,
+            "G": 1.0,
+            "B": 0.3,
+            "A": 1.0
+          },
+          "Life": 150,
+          "Shape": "CYLINDER"
+        }
+      ]
+    },
+    {
+      "Tag": "Beam",
+      "Property": [
+        {
+          "BeginScale": {
+            "X": 5.0,
+            "Y": 0.0,
+            "Z": 20.0
+          },
+          "RotateValue": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "PosOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -20.0
+          },
+          "Color": {
+            "R": 0.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "Life": 150,
+          "TractionPlayer": true,
+          "TexTag": "BEAM",
+          "Shape": "PLANE"
+        },
+        {
+          "BeginRot": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.57
+          },
+          "BeginScale": {
+            "X": 5.0,
+            "Y": 0.0,
+            "Z": 20.0
+          },
+          "RotateValue": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "PosOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -20.0
+          },
+          "Color": {
+            "R": 0.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "Life": 150,
+          "TractionPlayer": true,
+          "TexTag": "BEAM",
+          "Shape": "PLANE"
+        },
+        {
+          "BeginRot": {
+            "X": 0.0,
+            "Y": 1.57,
+            "Z": 1.57
+          },
+          "BeginScale": {
+            "X": 10.0,
+            "Y": 0.0,
+            "Z": 10.0
+          },
+          "RotateValue": {
+            "X": 0.1,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Color": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorTransition": {
+            "R": 0.0,
+            "G": 0.5,
+            "B": 0.5,
+            "A": 1.0
+          },
+          "ColorTransitionEndTime": 50,
+          "Life": 150,
+          "TractionPlayer": true,
+          "TexTag": "MAGICAL",
+          "Shape": "CIRCLE"
+        }
+      ]
+    },
+    {
+      "Tag": "CRYSTAL",
+      "Property": [
+        {
+          "BeginRot": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.57
+          },
+          "BeginScale": {
+            "X": 2.0,
+            "Y": 2.0,
+            "Z": 2.0
+          },
+          "Color": {
+            "R": 0.7,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 0.7
+          },
+          "ColorTransition": {
+            "R": 1.0,
+            "G": 0.7,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorTransitionEndTime": 10,
+          "Life": 150,
+          "Shape": "CUBE"
+        },
+        {
+          "BeginRot": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "BeginScale": {
+            "X": 6.5,
+            "Y": 6.5,
+            "Z": 6.5
+          },
+          "RotateValue": {
+            "X": 0.3,
+            "Y": 0.3,
+            "Z": 0.0
+          },
+          "Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "Life": 150,
+          "TexTag": "LASER",
+          "Shape": "SPHERE"
+        },
+        {
+          "BeginRot": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "BeginScale": {
+            "X": 6.5,
+            "Y": 6.5,
+            "Z": 6.5
+          },
+          "RotateValue": {
+            "X": 0.0,
+            "Y": 0.3,
+            "Z": 0.3
+          },
+          "Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "Life": 150,
+          "TexTag": "LASER",
+          "Shape": "SPHERE"
+        }
+      ]
+    },
+    {
+      "Tag": "DamageField",
+      "Property": [
+        {
+          "ScalingValue": {
+            "X": 0.4,
+            "Y": 0.0,
+            "Z": 0.4
+          },
+          "BeginScale": {
+            "X": 1.0,
+            "Y": 5.0,
+            "Z": 1.0
+          },
+          "Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "AlphaAttenuation": 0.007,
+          "Life": 500,
+          "TexTag": "DAMAGE_FIELD",
+          "Shape": "CIRCLE"
+        }
+      ]
+    }
+  ]
+}

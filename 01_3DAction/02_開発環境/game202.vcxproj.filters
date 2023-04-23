@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{730a6ed8-9f33-4bd6-8daf-aa4ecc9b2919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{94bbc7d4-6d16-4504-9fe7-2456854e3bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Main">
+      <UniqueIdentifier>{d5f6d49e-f6e9-49b2-baad-b3520ae843e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object">
+      <UniqueIdentifier>{f6eb512e-6acf-4459-b779-afea7b63b3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\2D">
+      <UniqueIdentifier>{17d18807-f5dc-4a55-80ce-98b9a7299087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D">
+      <UniqueIdentifier>{359d1038-2bf1-47be-94ef-a631061bf57a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Main\Main">
+      <UniqueIdentifier>{23361fef-e388-4775-86bb-6692497ffc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Main\3D">
+      <UniqueIdentifier>{0a1f3c50-25b7-4a71-b05b-178089601d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Input">
+      <UniqueIdentifier>{1b8e2bd4-a375-4ea4-a831-3882f2df6e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Main\Extern">
+      <UniqueIdentifier>{f9ce15f5-b240-4bfb-a3c6-875a9856a2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Main">
+      <UniqueIdentifier>{f9ce2fb0-4e69-4aa0-8c0d-acd03116890b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Main\Mode">
+      <UniqueIdentifier>{6f5710ce-e1bf-4858-b5e5-86811476dc0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\2D\Main">
+      <UniqueIdentifier>{85b4977e-bef1-49e7-900b-87437977175f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Object">
+      <UniqueIdentifier>{f21980da-0889-45f4-8dd7-62205b4451f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Object\Enemy">
+      <UniqueIdentifier>{dc285c37-b14c-438e-9d92-9e98fa36a6e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\2D\Object">
+      <UniqueIdentifier>{1b4f87ba-31bd-484a-a4fa-ee851cba6294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{5e746f45-99c7-405c-9513-3ca06f33af74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Main\Motion">
+      <UniqueIdentifier>{ca4a6274-ef9b-4951-bd11-03f2ddbee624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Object\Skill">
+      <UniqueIdentifier>{9b2df053-95f6-46ea-8d0c-6e71b1beca35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Object\3DEffect">
+      <UniqueIdentifier>{7a338b88-ff4a-4706-8f4f-9176bdfcae5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Object\Ability">
+      <UniqueIdentifier>{da37debe-854e-447c-8d6d-4e961cb71f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Main\Shader">
+      <UniqueIdentifier>{f20d61bc-a33a-4d19-9a98-571b45819545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Main\Shader\FX">
+      <UniqueIdentifier>{bdeef182-815c-4795-b14e-1c990484d83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Object\Item">
+      <UniqueIdentifier>{ae50b23e-d526-4102-88c7-b76124d7c18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Render">
+      <UniqueIdentifier>{ae0a8836-0b22-4f1a-93b6-b9f1adc83f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Object\Ability\AbilityList">
+      <UniqueIdentifier>{c62b663d-f444-4233-9101-a5479eae3ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Object\Particle">
+      <UniqueIdentifier>{c7d912f6-eb85-4ba9-a6ad-b3dda233ff3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\3D\Object\Event">
+      <UniqueIdentifier>{f6f8b729-a2ca-458d-947a-034abcde7338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Object\2D\Object\2DEffect">
+      <UniqueIdentifier>{6e09c005-ae68-4078-9e47-e8a6caa03d2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="precompile.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Code\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>Code\Main\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Code\Main\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Code\Main\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Code\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Code\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>Code\Main\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Code\Main\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Code\Main\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Code\Main\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="object3d.cpp">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="meshfield.cpp">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="mode.cpp">
+      <Filter>Code\Main\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>Code\Main\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>Code\Main\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Code\Main\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>Code\Main\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="object2d.cpp">
+      <Filter>Code\Object\2D\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Code\Main\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Code\Object\3D\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_emitter.cpp">
+      <Filter>Code\Object\3D\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="3dgauge.cpp">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="hp.cpp">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="exp.cpp">
+      <Filter>Code\Object\2D\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="gauge.cpp">
+      <Filter>Code\Object\2D\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>Code\Object\2D\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="combo.cpp">
+      <Filter>Code\Object\2D\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="motion.cpp">
+      <Filter>Code\Object\3D\Main\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="motion_model3D.cpp">
+      <Filter>Code\Object\3D\Main\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="parts.cpp">
+      <Filter>Code\Object\3D\Main\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="objectX.cpp">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="objectX_group.cpp">
+      <Filter>Code\Main\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="damage_circle.cpp">
+      <Filter>Code\Object\3D\Object\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="sp.cpp">
+      <Filter>Code\Object\2D\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="3deffect.cpp">
+      <Filter>Code\Object\3D\Object\3DEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="3deffect_emitter.cpp">
+      <Filter>Code\Object\3D\Object\3DEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="3deffect_manager.cpp">
+      <Filter>Code\Object\3D\Object\3DEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="continue.cpp">
+      <Filter>Code\Main\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_manager.cpp">
+      <Filter>Code\Object\3D\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ability.cpp">
+      <Filter>Code\Object\3D\Object\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="ability_select.cpp">
+      <Filter>Code\Object\3D\Object\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Code\Main\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="depthbuffershadow.cpp">
+      <Filter>Code\Main\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="lambert.cpp">
+      <Filter>Code\Main\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Code\Object\3D\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>Code\Object\3D\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="beam.cpp">
+      <Filter>Code\Object\3D\Object\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>Code\Object\3D\Object\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="crystal.cpp">
+      <Filter>Code\Object\3D\Object\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="funnel.cpp">
+      <Filter>Code\Object\3D\Object\Ability\AbilityList</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>Code\Object\3D\Object\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="particle_manager.cpp">
+      <Filter>Code\Object\3D\Object\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="particle_emitter.cpp">
+      <Filter>Code\Object\3D\Object\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="event.cpp">
+      <Filter>Code\Object\3D\Object\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="damage.cpp">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>Code\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="field_damage.cpp">
+      <Filter>Code\Object\3D\Object\Ability\AbilityList</Filter>
+    </ClCompile>
+    <ClCompile Include="2deffect.cpp">
+      <Filter>Code\Object\2D\Object\2DEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="debugproc.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="precompile.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Code\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>Code\Main\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Code\Main\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Code\Main\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Code\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Code\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>Code\Main\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Code\Main\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Code\Main\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Code\Main\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="object3d.h">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="meshfield.h">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="mode.h">
+      <Filter>Code\Main\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>Code\Main\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>Code\Main\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Code\Main\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>Code\Main\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="object2d.h">
+      <Filter>Code\Object\2D\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Code\Main\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Code\Object\3D\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_emitter.h">
+      <Filter>Code\Object\3D\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="3dgauge.h">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="hp.h">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="exp.h">
+      <Filter>Code\Object\2D\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="gauge.h">
+      <Filter>Code\Object\2D\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>Code\Object\2D\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="combo.h">
+      <Filter>Code\Object\2D\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="motion.h">
+      <Filter>Code\Object\3D\Main\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_model3D.h">
+      <Filter>Code\Object\3D\Main\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="parts.h">
+      <Filter>Code\Object\3D\Main\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="objectX.h">
+      <Filter>Code\Object\3D\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="objectX_group.h">
+      <Filter>Code\Main\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="damage_circle.h">
+      <Filter>Code\Object\3D\Object\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="sp.h">
+      <Filter>Code\Object\2D\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="3deffect.h">
+      <Filter>Code\Object\3D\Object\3DEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="3deffect_emitter.h">
+      <Filter>Code\Object\3D\Object\3DEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="3deffect_manager.h">
+      <Filter>Code\Object\3D\Object\3DEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="continue.h">
+      <Filter>Code\Main\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_manager.h">
+      <Filter>Code\Object\3D\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ability.h">
+      <Filter>Code\Object\3D\Object\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="ability_select.h">
+      <Filter>Code\Object\3D\Object\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Code\Main\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="depthbuffershadow.h">
+      <Filter>Code\Main\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="lambert.h">
+      <Filter>Code\Main\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Code\Object\3D\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>Code\Object\3D\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="beam.h">
+      <Filter>Code\Object\3D\Object\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="skill.h">
+      <Filter>Code\Object\3D\Object\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="crystal.h">
+      <Filter>Code\Object\3D\Object\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="funnel.h">
+      <Filter>Code\Object\3D\Object\Ability\AbilityList</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>Code\Object\3D\Object\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="particle_manager.h">
+      <Filter>Code\Object\3D\Object\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="particle_emitter.h">
+      <Filter>Code\Object\3D\Object\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Code\Object\3D\Object\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="damage.h">
+      <Filter>Code\Object\3D\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>Code\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="field_damage.h">
+      <Filter>Code\Object\3D\Object\Ability\AbilityList</Filter>
+    </ClInclude>
+    <ClInclude Include="2deffect.h">
+      <Filter>Code\Object\2D\Object\2DEffect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\FILE\model.json">
+      <Filter>File</Filter>
+    </None>
+    <None Include="data\FILE\texture.json">
+      <Filter>File</Filter>
+    </None>
+    <None Include="data\FILE\3DEffect.json">
+      <Filter>File</Filter>
+    </None>
+    <None Include="data\FILE\enemy.json">
+      <Filter>File</Filter>
+    </None>
+    <None Include="data\FILE\particle.json">
+      <Filter>File</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="DepthBufferShadow.fx">
+      <Filter>Code\Main\Shader\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="Lambert.fx">
+      <Filter>Code\Main\Shader\FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

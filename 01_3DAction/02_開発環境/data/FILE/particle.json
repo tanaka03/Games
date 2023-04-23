@@ -1,0 +1,41 @@
+{
+  "PARTICLE": [
+    {
+      "Tag": "Attack",
+      "PopNum": 5,
+      "Property": [
+        {
+          "Move": {
+            "X": 0,
+            "Y": 0.5,
+            "Z": 0
+          },
+          "Scale": {
+            "X": 25.0,
+            "Y": 25.0,
+            "Z": 0
+          },
+          "Color": {
+            "R": 0.5,
+            "G": 0.5,
+            "B": 0,
+            "A": 1.0
+          },
+          "DestColor": {
+            "R": 0,
+            "G": 0.5,
+            "B": 1.0,
+            "A": 0.0
+          },
+          "MoveAttenuation": 2.5,
+          "ColorAttenuation": 0.6,
+          "Radius": 360.0,
+          "Rotate": 0.1,
+          "Life": 100,
+          "TexTag": "STAR",
+          "Behavior": "Rotate, Move_Circle, ColorTransition"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "MODEL": [
+    [ "FOKKO", "data\\MODEL\\fokko.x" ],
+    [ "STAR", "data\\MODEL\\star.x" ],
+    [ "GEM", "data\\MODEL\\gem.x" ],
+    [ "STAGE_COASTLANDS", "data\\MODEL\\stage_coastlands.x" ],
+    [ "CUBE", "data\\MODEL\\cube.x" ],
+    [ "CYLINDER", "data\\MODEL\\cylinder.x" ],
+    [ "CIRCLE", "data\\MODEL\\circle.x" ],
+    [ "PLANE", "data\\MODEL\\plane.x" ],
+    [ "SPHERE", "data\\MODEL\\sphere.x" ],
+    [ "SQUARE", "data\\MODEL\\square.x" ],
+    [ "HARI", "data\\MODEL\\hari.x" ],
+    [ "OBAKE", "data\\MODEL\\OBK.x"]
+  ]
+}

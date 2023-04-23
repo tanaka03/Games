@@ -1,0 +1,62 @@
+{
+  "ENEMY": [
+    {
+      "Tag": "CHOCO",
+      "Property": [
+        {
+          "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "Speed": 1.2,
+          "Power": 5,
+          "Life": 20,
+          "CoolTime": 25,
+          "Score": 100,
+          "Exp": 1,
+          "AnimationPath": "data/MODEL/Choco/motion_choco.txt",
+          "Vision": [
+            {
+              "VisionValue": 300,
+              "Behavior": "Adulation"
+            },
+            {
+              "VisionValue": 50,
+              "Behavior": "Attack"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Tag": "DEVIL",
+      "Property": [
+        {
+          "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "Speed": 2.0,
+          "Power": 3,
+          "Life": 15,
+          "CoolTime": 15,
+          "Score": 200,
+          "Exp": 2,
+          "AnimationPath": "data/MODEL/Devil/motion_devil.txt",
+          "Vision": [
+            {
+              "VisionValue": 500,
+              "Behavior": "Adulation"
+            },
+            {
+              "VisionValue": 80,
+              "Behavior": "Attack"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

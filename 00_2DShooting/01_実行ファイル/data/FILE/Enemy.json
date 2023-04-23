@@ -1,34 +1,34 @@
 {
-  "ENEMY0": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 0,
-    "DAMAGE": 2,
-    "FRAME": 50,
-    "INTERVAL": 50,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 0,
-      "Y": 1,
-      "Z": 0
-    },
-    "POS": {
-      "X": 100,
-      "Y": -50,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 1
-  },
+	"ENEMY0": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 0,
+		"DAMAGE": 2,
+		"FRAME": 50,
+		"INTERVAL": 50,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 0,
+			"Y": 1,
+			"Z": 0
+		},
+		"POS": {
+			"X": 100,
+			"Y": -50,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 1
+	},
 	"ENEMY1": {
 		"COL": {
 			"A": 1,
@@ -59,37 +59,37 @@
 		"SCORE": 100,
 		"TYPE": 1
 	},
-  "ENEMY2": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 0,
-    "DAMAGE": 2,
-    "FRAME": 250,
-    "INTERVAL": 50,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 0,
-      "Y": 1,
-      "Z": 0
-    },
-    "POS": {
-      "X": 150,
-      "Y": -50,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 1
-  },
-  	"ENEMY3": {
+	"ENEMY2": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 0,
+		"DAMAGE": 2,
+		"FRAME": 250,
+		"INTERVAL": 50,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 0,
+			"Y": 1,
+			"Z": 0
+		},
+		"POS": {
+			"X": 150,
+			"Y": -50,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 1
+	},
+	"ENEMY3": {
 		"COL": {
 			"A": 1,
 			"B": 1,
@@ -119,36 +119,36 @@
 		"SCORE": 100,
 		"TYPE": 1
 	},
-  "ENEMY4": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 0,
-    "DAMAGE": 2,
-    "FRAME": 650,
-    "INTERVAL": 50,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 0,
-      "Y": 1,
-      "Z": 0
-    },
-    "POS": {
-      "X": 200,
-      "Y": -50,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 1
-  },
+	"ENEMY4": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 0,
+		"DAMAGE": 2,
+		"FRAME": 650,
+		"INTERVAL": 50,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 0,
+			"Y": 1,
+			"Z": 0
+		},
+		"POS": {
+			"X": 200,
+			"Y": -50,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 1
+	},
 	"ENEMY5": {
 		"COL": {
 			"A": 1,
@@ -179,36 +179,36 @@
 		"SCORE": 100,
 		"TYPE": 1
 	},
-  "ENEMY6": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 0,
-    "DAMAGE": 2,
-    "FRAME": 1050,
-    "INTERVAL": 50,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 0,
-      "Y": 1,
-      "Z": 0
-    },
-    "POS": {
-      "X": 200,
-      "Y": -50,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 1
-  },
+	"ENEMY6": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 0,
+		"DAMAGE": 2,
+		"FRAME": 1050,
+		"INTERVAL": 50,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 0,
+			"Y": 1,
+			"Z": 0
+		},
+		"POS": {
+			"X": 200,
+			"Y": -50,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 1
+	},
 	"ENEMY7": {
 		"COL": {
 			"A": 1,
@@ -239,36 +239,36 @@
 		"SCORE": 100,
 		"TYPE": 1
 	},
-  "ENEMY8": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 0,
-    "DAMAGE": 2,
-    "FRAME": 1450,
-    "INTERVAL": 50,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 0,
-      "Y": 1,
-      "Z": 0
-    },
-    "POS": {
-      "X": 250,
-      "Y": -50,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 1
-  },
+	"ENEMY8": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 0,
+		"DAMAGE": 2,
+		"FRAME": 1450,
+		"INTERVAL": 50,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 0,
+			"Y": 1,
+			"Z": 0
+		},
+		"POS": {
+			"X": 250,
+			"Y": -50,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 1
+	},
 	"ENEMY9": {
 		"COL": {
 			"A": 1,
@@ -389,36 +389,36 @@
 		"SCORE": 50,
 		"TYPE": 4
 	},
-  "ENEMY13": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 50,
-    "DAMAGE": 1,
-    "FRAME": 2200,
-    "INTERVAL": 65,
-    "LIFE": 2,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 0,
-      "Y": 1,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": -50,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 50,
-    "TYPE": 4
-  },
+	"ENEMY13": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 50,
+		"DAMAGE": 1,
+		"FRAME": 2200,
+		"INTERVAL": 65,
+		"LIFE": 2,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 0,
+			"Y": 1,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": -50,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 50,
+		"TYPE": 4
+	},
 	"ENEMY14": {
 		"COL": {
 			"A": 1,
@@ -449,67 +449,67 @@
 		"SCORE": 50,
 		"TYPE": 4
 	},
-  "ENEMY15": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 50,
-    "DAMAGE": 1,
-    "FRAME": 2200,
-    "INTERVAL": 65,
-    "LIFE": 2,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 0,
-      "Y": 1,
-      "Z": 0
-    },
-    "POS": {
-      "X": 800,
-      "Y": -50,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 50,
-    "TYPE": 4
-  },
-  "ENEMY16": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 50,
-    "DAMAGE": 1,
-    "FRAME": 2200,
-    "INTERVAL": 65,
-    "LIFE": 2,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 0,
-      "Y": 1,
-      "Z": 0
-    },
-    "POS": {
-      "X": 400,
-      "Y": -50,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 50,
-    "TYPE": 4
-  },
-  	"ENEMY17": {
+	"ENEMY15": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 50,
+		"DAMAGE": 1,
+		"FRAME": 2200,
+		"INTERVAL": 65,
+		"LIFE": 2,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 0,
+			"Y": 1,
+			"Z": 0
+		},
+		"POS": {
+			"X": 800,
+			"Y": -50,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 50,
+		"TYPE": 4
+	},
+	"ENEMY16": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 50,
+		"DAMAGE": 1,
+		"FRAME": 2200,
+		"INTERVAL": 65,
+		"LIFE": 2,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 0,
+			"Y": 1,
+			"Z": 0
+		},
+		"POS": {
+			"X": 400,
+			"Y": -50,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 50,
+		"TYPE": 4
+	},
+	"ENEMY17": {
 		"COL": {
 			"A": 1,
 			"B": 1,
@@ -629,36 +629,36 @@
 		"SCORE": 100,
 		"TYPE": 4
 	},
-  "ENEMY21": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 50,
-    "DAMAGE": 3,
-    "FRAME": 2800,
-    "INTERVAL": 30,
-    "LIFE": 3,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": -1,
-      "Y": 1,
-      "Z": 0
-    },
-    "POS": {
-      "X": 1100,
-      "Y": -90,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 4
-  },
+	"ENEMY21": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 50,
+		"DAMAGE": 3,
+		"FRAME": 2800,
+		"INTERVAL": 30,
+		"LIFE": 3,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": -1,
+			"Y": 1,
+			"Z": 0
+		},
+		"POS": {
+			"X": 1100,
+			"Y": -90,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 4
+	},
 	"ENEMY22": {
 		"COL": {
 			"A": 1,
@@ -983,7 +983,7 @@
 		"SCORE": 100,
 		"TYPE": 6
 	},
-	"ENEMY32": {        //‚±‚±ŠÔ‚ ‚«‚·‚¬
+	"ENEMY32": {
 		"COL": {
 			"A": 1,
 			"B": 1,
@@ -1211,459 +1211,459 @@
 		"SCORE": 100,
 		"TYPE": 5
 	},
-  "ENEMY38": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 250,
-    "DAMAGE": 3,
-    "FRAME": 6300,
-    "INTERVAL": 150,
-    "KEYFRAME0": {
-      "MOVEFRAME": 6700,
-      "KEYMOVE": {
-        "X": 1200,
-        "Y": 400,
-        "Z": 0
-      }
-    },
-    "LIFE": 4,
-    "NUMMOVE": 1,
-    "MOVE": {
-      "X": 1,
-      "Y": -1,
-      "Z": 0
-    },
-    "POS": {
-      "X": -100,
-      "Y": 500,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 5
-  },
-  "ENEMY39": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 7500,
-    "INTERVAL": 20,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 5,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": 0,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 3
-  },
-  "ENEMY40": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 7600,
-    "INTERVAL": 20,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 5,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": 0,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 3
-  },
-  "ENEMY41": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 7700,
-    "INTERVAL": 20,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 5,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": 0,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 3
-  },
-  "ENEMY42": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 7800,
-    "INTERVAL": 20,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 5,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": 0,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 3
-  },
-  "ENEMY43": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 7900,
-    "INTERVAL": 20,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 5,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": 0,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 3
-  },
-  "ENEMY44": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 8000,
-    "INTERVAL": 20,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 5,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": 0,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 3
-  },
-  "ENEMY45": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 8000,
-    "INTERVAL": 20,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 5,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": 0,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 3
-  },
-  "ENEMY46": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 8100,
-    "INTERVAL": 20,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 5,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": 0,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 3
-  },
-  "ENEMY47": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 8200,
-    "INTERVAL": 20,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 5,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": 0,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 3
-  },
-  "ENEMY48": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 8300,
-    "INTERVAL": 20,
-    "LIFE": 4,
-    "NUMMOVE": 0,
-    "MOVE": {
-      "X": 5,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": 0,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 30,
-      "WIDTH": 30
-    },
-    "SCORE": 100,
-    "TYPE": 3
-  },
-  "ENEMY49": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 9100,
-    "INTERVAL": 30,
-    "KEYFRAME0": {
-      "MOVEFRAME": 9120,
-      "KEYMOVE": {
-        "X": 0,
-        "Y": 0,
-        "Z": 0
-      }
-    },
-    "LIFE": 30,
-    "NUMMOVE": 1,
-    "MOVE": {
-      "X": 0,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 300,
-      "Y": -20,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 55,
-      "WIDTH": 55
-    },
-    "SCORE": 100,
-    "TYPE": 5
-  },
-  "ENEMY50": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 10100,
-    "INTERVAL": 30,
-    "KEYFRAME0": {
-      "MOVEFRAME": 10120,
-      "KEYMOVE": {
-        "X": 0,
-        "Y": 0,
-        "Z": 0
-      }
-    },
-    "LIFE": 30,
-    "NUMMOVE": 1,
-    "MOVE": {
-      "X": 0,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 500,
-      "Y": -20,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 55,
-      "WIDTH": 55
-    },
-    "SCORE": 100,
-    "TYPE": 5
-  },
-  "ENEMY51": {
-    "COL": {
-      "A": 1,
-      "B": 1,
-      "G": 1,
-      "R": 1
-    },
-    "BULLETLIFE": 100,
-    "DAMAGE": 3,
-    "FRAME": 11000,
-    "INTERVAL": 30,
-    "KEYFRAME0": {
-      "MOVEFRAME": 11080,
-      "KEYMOVE": {
-        "X": 0,
-        "Y": 0,
-        "Z": 0
-      }
-    },
-    "LIFE": 30,
-    "NUMMOVE": 1,
-    "MOVE": {
-      "X": 0,
-      "Y": 5,
-      "Z": 0
-    },
-    "POS": {
-      "X": 700,
-      "Y": -20,
-      "Z": 0
-    },
-    "SCALE": {
-      "HEIGHT": 55,
-      "WIDTH": 55
-    },
-    "SCORE": 100,
-    "TYPE": 5
-  },
-  	"ENEMY52": {
+	"ENEMY38": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 250,
+		"DAMAGE": 3,
+		"FRAME": 6300,
+		"INTERVAL": 150,
+		"KEYFRAME0": {
+			"MOVEFRAME": 6700,
+			"KEYMOVE": {
+				"X": 1200,
+				"Y": 400,
+				"Z": 0
+			}
+		},
+		"LIFE": 4,
+		"NUMMOVE": 1,
+		"MOVE": {
+			"X": 1,
+			"Y": -1,
+			"Z": 0
+		},
+		"POS": {
+			"X": -100,
+			"Y": 500,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 5
+	},
+	"ENEMY39": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 7500,
+		"INTERVAL": 20,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 5,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": 0,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 3
+	},
+	"ENEMY40": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 7600,
+		"INTERVAL": 20,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 5,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": 0,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 3
+	},
+	"ENEMY41": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 7700,
+		"INTERVAL": 20,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 5,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": 0,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 3
+	},
+	"ENEMY42": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 7800,
+		"INTERVAL": 20,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 5,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": 0,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 3
+	},
+	"ENEMY43": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 7900,
+		"INTERVAL": 20,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 5,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": 0,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 3
+	},
+	"ENEMY44": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 8000,
+		"INTERVAL": 20,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 5,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": 0,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 3
+	},
+	"ENEMY45": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 8000,
+		"INTERVAL": 20,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 5,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": 0,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 3
+	},
+	"ENEMY46": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 8100,
+		"INTERVAL": 20,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 5,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": 0,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 3
+	},
+	"ENEMY47": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 8200,
+		"INTERVAL": 20,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 5,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": 0,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 3
+	},
+	"ENEMY48": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 8300,
+		"INTERVAL": 20,
+		"LIFE": 4,
+		"NUMMOVE": 0,
+		"MOVE": {
+			"X": 5,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": 0,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 30,
+			"WIDTH": 30
+		},
+		"SCORE": 100,
+		"TYPE": 3
+	},
+	"ENEMY49": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 9100,
+		"INTERVAL": 30,
+		"KEYFRAME0": {
+			"MOVEFRAME": 9120,
+			"KEYMOVE": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		"LIFE": 30,
+		"NUMMOVE": 1,
+		"MOVE": {
+			"X": 0,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 300,
+			"Y": -20,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 55,
+			"WIDTH": 55
+		},
+		"SCORE": 100,
+		"TYPE": 5
+	},
+	"ENEMY50": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 10100,
+		"INTERVAL": 30,
+		"KEYFRAME0": {
+			"MOVEFRAME": 10120,
+			"KEYMOVE": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		"LIFE": 30,
+		"NUMMOVE": 1,
+		"MOVE": {
+			"X": 0,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 500,
+			"Y": -20,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 55,
+			"WIDTH": 55
+		},
+		"SCORE": 100,
+		"TYPE": 5
+	},
+	"ENEMY51": {
+		"COL": {
+			"A": 1,
+			"B": 1,
+			"G": 1,
+			"R": 1
+		},
+		"BULLETLIFE": 100,
+		"DAMAGE": 3,
+		"FRAME": 11000,
+		"INTERVAL": 30,
+		"KEYFRAME0": {
+			"MOVEFRAME": 11080,
+			"KEYMOVE": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		"LIFE": 30,
+		"NUMMOVE": 1,
+		"MOVE": {
+			"X": 0,
+			"Y": 5,
+			"Z": 0
+		},
+		"POS": {
+			"X": 700,
+			"Y": -20,
+			"Z": 0
+		},
+		"SCALE": {
+			"HEIGHT": 55,
+			"WIDTH": 55
+		},
+		"SCORE": 100,
+		"TYPE": 5
+	},
+	"ENEMY52": {
 		"COL": {
 			"A": 1,
 			"B": 1,
@@ -1673,15 +1673,15 @@
 		"BULLETLIFE": 160,
 		"DAMAGE": 3,
 		"FRAME": 12100,
-    "INTERVAL": 120,
-    "KEYFRAME0": {
-      "MOVEFRAME": 12120,
-      "KEYMOVE": {
-        "X": 0,
-        "Y": 0,
-        "Z": 0
-      }
-    },
+		"INTERVAL": 120,
+		"KEYFRAME0": {
+			"MOVEFRAME": 12120,
+			"KEYMOVE": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
 		"LIFE": 300,
 		"NUMMOVE": 1,
 		"MOVE": {
